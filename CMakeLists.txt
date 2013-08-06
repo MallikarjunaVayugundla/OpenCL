@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 2.6 FATAL_ERROR)
+project(OpenCLTest)
+find_package(PCL 1.3 REQUIRED)
+#need to replace the absolute paths for OpenCL like in the case of PCL
+#find_package(OpenCL REQUIRED)
+include_directories(${PCL_INCLUDE_DIRS})
+include_directories(/opt/AMDAPP/include)
+link_directories(${PCL_LIBRARY_DIRS})
+link_directories(/opt/AMDAPP/lib/x86_64)
+add_definitions(${PCL_DEFINITIONS})
+add_executable(deviceQuery deviceQuery.cpp)
+target_link_libraries(deviceQuery ${PCL_COMMON_LIBRARIES} ${PCL_IO_LIBRARIES}  /opt/AMDAPP/lib/x86_64/libOpenCL.so)
