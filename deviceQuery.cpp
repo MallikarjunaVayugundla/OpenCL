@@ -15,12 +15,6 @@ using namespace std;
 int main(int argc, char **argv)
 {
 
-	//cout<<"Hello World!";
-	//int x;
-	//cin>>x;
-
-	//the real stuff starts here
-
 	//platform details
 	cl_uint devicecount=NULL;
 	cl_uint NumPlatforms;
