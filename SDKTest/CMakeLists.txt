@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 2.6 FATAL_ERROR)
+project(SDKTest)
+#need to replace the absolute paths for OpenCL like in the case of PCL
+#find_package(OpenCL REQUIRED)
+include_directories(/opt/AMDAPP/include)
+include_directories(/opt/AMDAPP/samples/opencl/SDKUtil/include)
+#link_directories(${PCL_LIBRARY_DIRS})
+link_directories(/opt/AMDAPP/lib/x86_64)
+#add_definitions(${PCL_DEFINITIONS})
+add_executable(SDKTest SDKTest.cpp)
+target_link_libraries(SDKTest  /opt/AMDAPP/lib/x86_64/libOpenCL.so)

@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.1628782089/PATH/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.1628782089/PATH/operation=replace
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.1628782089/PATH/value=/bin\:/usr/lib/lightdm/lightdm\:/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/usr/games\:/opt/AMDAPP/include
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.1628782089/append=true
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.1628782089/appendContributed=true
