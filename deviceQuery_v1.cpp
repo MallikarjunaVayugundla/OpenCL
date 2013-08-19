@@ -26,7 +26,8 @@ int main(int argc, char **argv)
 
 	cl_device_id cdDevice;
 	clGetDeviceIDs(NULL, CL_DEVICE_TYPE_CPU, 1, &cdDevice, &devicecount);
-
+	
+	
 	cout << NumPlatforms << endl;
 	cout << PlatformIDs << endl;
 	cout << cdDevice << endl;
