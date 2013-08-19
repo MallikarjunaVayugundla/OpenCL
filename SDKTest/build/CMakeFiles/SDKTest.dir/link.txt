@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/SDKTest.dir/SDKTest.cpp.o  -o SDKTest -rdynamic -L/opt/AMDAPP/lib/x86_64 /opt/AMDAPP/lib/x86_64/libOpenCL.so -Wl,-rpath,/opt/AMDAPP/lib/x86_64 
